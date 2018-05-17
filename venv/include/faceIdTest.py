@@ -5,19 +5,23 @@
 # File     :faceIdTest.py
 # Location:/Home/PycharmProjects/..
 
+# Face detected
+
 
 import cv2
 import numpy as np
 
 
-def cascade():
+def face_detected():
     # Initial the classifier
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
     # If classifier not found, raise error
     if face_cascade.empty():
         raise IOError("Not Found !")
+
     # Open the video
     cap = cv2.VideoCapture(0)
+
     # Define the coefficient
     scaling_factor = 0.5
     while True:
@@ -49,4 +53,4 @@ def cascade():
     cv2.destroyAllWindows()
 
 if __name__ == '__main__':
-    cascade()
+    face_detected()
