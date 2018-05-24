@@ -72,10 +72,17 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
+<<<<<<< HEAD
     <option name="x" value="599" />
     <option name="y" value="27" />
     <option name="width" value="1226" />
     <option name="height" value="1053" />
+=======
+    <option name="x" value="111" />
+    <option name="y" value="24" />
+    <option name="width" value="1236" />
+    <option name="height" value="744" />
+>>>>>>> 8b45d1414bddcec00e1e2edf7d5c3923c08c86bb
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">

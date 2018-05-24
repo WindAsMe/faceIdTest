@@ -49,5 +49,9 @@ def do_pca():
     print('Shape after:', x_new.shape)
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8b45d1414bddcec00e1e2edf7d5c3923c08c86bb
 if __name__ == '__main__':
     do_pca()

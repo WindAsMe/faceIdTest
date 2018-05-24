@@ -52,5 +52,6 @@ def face_detected():
     cap.release()
     cv2.destroyAllWindows()
 
+
 if __name__ == '__main__':
     face_detected()
